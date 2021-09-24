@@ -1,0 +1,1404 @@
+at   0's rising edge: 
+	IF: 
+		pc = xxxxxx
+		instruction = xxxxxxxxxxxxxxxxxxxxxxxxx
+	ID: 
+		reg1 = xxxxx
+		reg2 = xxxxx
+		reg3 = xxxxx
+		ID_rd = xxxxx
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = xxxxxxxxxxxxxxxx
+		index = xxx
+		ID_wr_en = x
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = xxxxx
+		exe_wr_en = x
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		wb_rd = xxxxx
+		wb_wr_en = x
+at   1's rising edge: 
+	IF: 
+		pc = 000000
+		instruction = xxxxxxxxxxxxxxxxxxxxxxxxx
+	ID: 
+		reg1 = xxxxx
+		reg2 = xxxxx
+		reg3 = xxxxx
+		ID_rd = xxxxx
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = xxxxxxxxxxxxxxxx
+		index = xxx
+		ID_wr_en = x
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = xxxxx
+		exe_wr_en = x
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		wb_rd = xxxxx
+		wb_wr_en = x
+at   2's rising edge: 
+	IF: 
+		pc = 000001
+		instruction = 0000000000000000101000000
+	ID: 
+		reg1 = xxxxx
+		reg2 = xxxxx
+		reg3 = xxxxx
+		ID_rd = xxxxx
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = xxxxxxxxxxxxxxxx
+		index = xxx
+		ID_wr_en = x
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = xxxxx
+		exe_wr_en = x
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		wb_rd = xxxxx
+		wb_wr_en = x
+at   3's rising edge: 
+	IF: 
+		pc = 000010
+		instruction = 0001000000000000000100000
+	ID: 
+		reg1 = 01010
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0000000000001010
+		index = 000
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = xxxxx
+		exe_wr_en = x
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		wb_rd = xxxxx
+		wb_wr_en = x
+at   4's rising edge: 
+	IF: 
+		pc = 000011
+		instruction = 0010000000001010000000000
+	ID: 
+		reg1 = 00001
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0000000000000001
+		index = 001
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at   5's rising edge: 
+	IF: 
+		pc = 000100
+		instruction = 0011000000000001000000000
+	ID: 
+		reg1 = 00000
+		reg2 = 00101
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+		immidiate = 0000000010100000
+		index = 010
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at   6's rising edge: 
+	IF: 
+		pc = 000101
+		instruction = 0100000010100000000000000
+	ID: 
+		reg1 = 10000
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+		immidiate = 0000000000010000
+		index = 011
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at   7's rising edge: 
+	IF: 
+		pc = 000110
+		instruction = 0101000000010000000000000
+	ID: 
+		reg1 = 00000
+		reg2 = 10000
+		reg3 = 00010
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0000101000000000
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at   8's rising edge: 
+	IF: 
+		pc = 000111
+		instruction = 0110101000000000000000000
+	ID: 
+		reg1 = 00000
+		reg2 = 01000
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000100000000
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at   9's rising edge: 
+	IF: 
+		pc = 001000
+		instruction = 0111000100000000000000000
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 01000
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1010000000000000
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at  10's rising edge: 
+	IF: 
+		pc = 001001
+		instruction = 0000000000000000101000001
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 00100
+		ID_rd = 00000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0001000000000000
+		index = 111
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at  11's rising edge: 
+	IF: 
+		pc = 001010
+		instruction = 0001000000000000000100001
+	ID: 
+		reg1 = 01010
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00001
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000001010
+		index = 000
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00000
+		exe_wr_en = 1
+		exe_alu_result = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00000
+		wb_wr_en = 1
+at  12's rising edge: 
+	IF: 
+		pc = 001011
+		instruction = 0010000000001010000000001
+	ID: 
+		reg1 = 00001
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00001
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000000001
+		index = 001
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  13's rising edge: 
+	IF: 
+		pc = 001100
+		instruction = 0011000000000001000000001
+	ID: 
+		reg1 = 00000
+		reg2 = 00101
+		reg3 = 00000
+		ID_rd = 00001
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000010100000
+		index = 010
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  14's rising edge: 
+	IF: 
+		pc = 001101
+		instruction = 0100000010100000000000001
+	ID: 
+		reg1 = 10000
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00001
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000010000
+		index = 011
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  15's rising edge: 
+	IF: 
+		pc = 001110
+		instruction = 0101000000010000000000001
+	ID: 
+		reg1 = 00000
+		reg2 = 10000
+		reg3 = 00010
+		ID_rd = 00001
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0000101000000000
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  16's rising edge: 
+	IF: 
+		pc = 001111
+		instruction = 0110101000000000000000001
+	ID: 
+		reg1 = 00000
+		reg2 = 01000
+		reg3 = 00000
+		ID_rd = 00001
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000100000000
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  17's rising edge: 
+	IF: 
+		pc = 010000
+		instruction = 0111000100000000000000001
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 01000
+		ID_rd = 00001
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1010000000000000
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  18's rising edge: 
+	IF: 
+		pc = 010001
+		instruction = 0000000000000000101100010
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 00100
+		ID_rd = 00001
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0001000000000000
+		index = 111
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxx1010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  19's rising edge: 
+	IF: 
+		pc = 010010
+		instruction = 0001000000000000101000010
+	ID: 
+		reg1 = 01011
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00010
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000001011
+		index = 000
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  20's rising edge: 
+	IF: 
+		pc = 010011
+		instruction = 0010000000001011000000010
+	ID: 
+		reg1 = 01010
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00010
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000001010
+		index = 001
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  21's rising edge: 
+	IF: 
+		pc = 010100
+		instruction = 0011000000001010000000010
+	ID: 
+		reg1 = 10000
+		reg2 = 00101
+		reg3 = 00000
+		ID_rd = 00010
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000010110000
+		index = 010
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  22's rising edge: 
+	IF: 
+		pc = 010101
+		instruction = 0100000010110000000000010
+	ID: 
+		reg1 = 00000
+		reg2 = 00101
+		reg3 = 00000
+		ID_rd = 00010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000010100000
+		index = 011
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  23's rising edge: 
+	IF: 
+		pc = 010110
+		instruction = 0101000010100000000000010
+	ID: 
+		reg1 = 00000
+		reg2 = 11000
+		reg3 = 00010
+		ID_rd = 00010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000000001011000000000000000010100000000000001011
+		immidiate = 0000101100000000
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000010100000000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000010100000000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  24's rising edge: 
+	IF: 
+		pc = 010111
+		instruction = 0110101100000000000000010
+	ID: 
+		reg1 = 00000
+		reg2 = 10000
+		reg3 = 00010
+		ID_rd = 00010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx0000000010100000000000001011000000000000000010100000000000001011
+		immidiate = 0000101000000000
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001011000000000000000010100000000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx00001011000000000000000010100000000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  25's rising edge: 
+	IF: 
+		pc = 011000
+		instruction = 0111101000000000000000010
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 01100
+		ID_rd = 00010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1011000000000000
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  26's rising edge: 
+	IF: 
+		pc = 011001
+		instruction = 1000000010000010000000011
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 01000
+		ID_rd = 00010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1010000000000000
+		index = 111
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 1
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = xxxxxxxxxxxxxxxx1011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = xxxxxxxxxxxxxxxx1011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  27's rising edge: 
+	IF: 
+		pc = 011010
+		instruction = 1000100011000100000000100
+	ID: 
+		reg1 = 00000
+		reg2 = 00001
+		reg3 = 00010
+		ID_rd = 00011
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxx1011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		immidiate = 0000100000100000
+		index = 000
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 1
+		mux_4 = 0
+		exe_rd = 00010
+		exe_wr_en = 1
+		exe_alu_result = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+	WB: 
+		wb_alu_result = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		wb_rd = 00010
+		wb_wr_en = 1
+at  28's rising edge: 
+	IF: 
+		pc = 011011
+		instruction = 1001000011001000000100101
+	ID: 
+		reg1 = 00000
+		reg2 = 00010
+		reg3 = 00011
+		ID_rd = 00100
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1000110001000000
+		index = 000
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 1
+		mux_4 = 0
+		exe_rd = 00011
+		exe_wr_en = 1
+		exe_alu_result = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+	WB: 
+		wb_alu_result = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+		wb_rd = 00011
+		wb_wr_en = 1
+at  29's rising edge: 
+	IF: 
+		pc = 011100
+		instruction = 1001100100000110000100110
+	ID: 
+		reg1 = 00001
+		reg2 = 00100
+		reg3 = 00011
+		ID_rd = 00101
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+		immidiate = 0000110010000001
+		index = 001
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00100
+		exe_wr_en = 1
+		exe_alu_result = 11111110110000001010000000000000000000010000111001010110000000000000000000010000000010101010000000000000000000010000000000010100
+	WB: 
+		wb_alu_result = 11111110110000001010000000000000000000010000111001010110000000000000000000010000000010101010000000000000000000010000000000010100
+		wb_rd = 00100
+		wb_wr_en = 1
+at  30's rising edge: 
+	IF: 
+		pc = 011101
+		instruction = 1010000010000010000000111
+	ID: 
+		reg1 = 00001
+		reg2 = 00011
+		reg3 = 00100
+		ID_rd = 00110
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+		r3_value = 11111110110000001010000000000000000000010000111001010110000000000000000000010000000010101010000000000000000000010000000000010100
+		immidiate = 1001000001100001
+		index = 001
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00101
+		exe_wr_en = 1
+		exe_alu_result = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+	WB: 
+		wb_alu_result = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		wb_rd = 00101
+		wb_wr_en = 1
+at  31's rising edge: 
+	IF: 
+		pc = 011110
+		instruction = 1010100101001100011101000
+	ID: 
+		reg1 = 00000
+		reg2 = 00001
+		reg3 = 00010
+		ID_rd = 00111
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		immidiate = 0000100000100000
+		index = 010
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00110
+		exe_wr_en = 1
+		exe_alu_result = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+	WB: 
+		wb_alu_result = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		wb_rd = 00110
+		wb_wr_en = 1
+at  32's rising edge: 
+	IF: 
+		pc = 011111
+		instruction = 1011000101001100011101001
+	ID: 
+		reg1 = 00111
+		reg2 = 00110
+		reg3 = 00101
+		ID_rd = 01000
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r3_value = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		immidiate = 1001010011000111
+		index = 010
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 1
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00111
+		exe_wr_en = 1
+		exe_alu_result = 00010000000010101010000001101111000000010110111000001010000000000000000000010000000000001010101000000000011100000000000001111000
+	WB: 
+		wb_alu_result = 00010000000010101010000001101111000000010110111000001010000000000000000000010000000000001010101000000000011100000000000001111000
+		wb_rd = 00111
+		wb_wr_en = 1
+at  33's rising edge: 
+	IF: 
+		pc = 100000
+		instruction = 1100000000000000000000000
+	ID: 
+		reg1 = 00111
+		reg2 = 00110
+		reg3 = 00101
+		ID_rd = 01001
+		r1_value = 00010000000010101010000001101111000000010110111000001010000000000000000000010000000000001010101000000000011100000000000001111000
+		r2_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r3_value = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		immidiate = 0001010011000111
+		index = 011
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01000
+		exe_wr_en = 1
+		exe_alu_result = 00001110110001100010000000010011010101010110111000001010000000000000000000001111101110000011010101111101001101010100010001111000
+	WB: 
+		wb_alu_result = 00001110110001100010000000010011010101010110111000001010000000000000000000001111101110000011010101111101001101010100010001111000
+		wb_rd = 01000
+		wb_wr_en = 1
+at  34's rising edge: 
+	IF: 
+		pc = 100001
+		instruction = 1101010001000100000101010
+	ID: 
+		reg1 = 00000
+		reg2 = 00000
+		reg3 = 00000
+		ID_rd = 00000
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		immidiate = 0000000000000000
+		index = 100
+		ID_wr_en = 0
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01001
+		exe_wr_en = 1
+		exe_alu_result = 00010000000011001111100011101101111001101010111000110010000000000000000000010000000000001010100100001001101111010101010001111110
+	WB: 
+		wb_alu_result = 00010000000011001111100011101101111001101010111000110010000000000000000000010000000000001010100100001001101111010101010001111110
+		wb_rd = 01001
+		wb_wr_en = 1
+at  35's rising edge: 
+	IF: 
+		pc = 100010
+		instruction = 1100010010010100001000001
+	ID: 
+		reg1 = 00001
+		reg2 = 00010
+		reg3 = 10001
+		ID_rd = 01010
+		r1_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r2_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0100010001000001
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00000
+		exe_wr_en = 0
+		exe_alu_result = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	WB: 
+		wb_alu_result = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		wb_rd = 00000
+		wb_wr_en = 0
+at  36's rising edge: 
+	IF: 
+		pc = 100011
+		instruction = 1111110011000010001101011
+	ID: 
+		reg1 = 00010
+		reg2 = 01010
+		reg3 = 10010
+		ID_rd = 00001
+		r1_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 0100100101000010
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01010
+		exe_wr_en = 1
+		exe_alu_result = 10110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101
+	WB: 
+		wb_alu_result = 10110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101
+		wb_rd = 01010
+		wb_wr_en = 1
+at  37's rising edge: 
+	IF: 
+		pc = 100100
+		instruction = 1110110100000010001101010
+	ID: 
+		reg1 = 00011
+		reg2 = 00001
+		reg3 = 10011
+		ID_rd = 01011
+		r1_value = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1100110000100011
+		index = 111
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 00001
+		exe_wr_en = 1
+		exe_alu_result = 00010000000000010110000000000000000000010000000000001010000000000000000000010000000000010110000000000000000000010000000000001010
+	WB: 
+		wb_alu_result = 00010000000000010110000000000000000000010000000000001010000000000000000000010000000000010110000000000000000000010000000000001010
+		wb_rd = 00001
+		wb_wr_en = 1
+at  38's rising edge: 
+	IF: 
+		pc = 100101
+		instruction = 1111110010010100101101100
+	ID: 
+		reg1 = 00011
+		reg2 = 00001
+		reg3 = 10100
+		ID_rd = 01010
+		r1_value = 00101110000000001010000000000000000000010110111000001010000000000000000000010000011011101010000000000000000000010000000001111000
+		r2_value = 00010000000000010110000000000000000000010000000000001010000000000000000000010000000000010110000000000000000000010000000000001010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1101000000100011
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01011
+		exe_wr_en = 1
+		exe_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+	WB: 
+		wb_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		wb_rd = 01011
+		wb_wr_en = 1
+at  39's rising edge: 
+	IF: 
+		pc = 100110
+		instruction = 1101110101010100101101101
+	ID: 
+		reg1 = 01011
+		reg2 = 01010
+		reg3 = 10010
+		ID_rd = 01100
+		r1_value = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		r2_value = 10110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101000000000000000010110000000000010101
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1100100101001011
+		index = 111
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01010
+		exe_wr_en = 1
+		exe_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+	WB: 
+		wb_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		wb_rd = 01010
+		wb_wr_en = 1
+at  40's rising edge: 
+	IF: 
+		pc = 100111
+		instruction = 1101111011011000110101101
+	ID: 
+		reg1 = 01011
+		reg2 = 01010
+		reg3 = 10101
+		ID_rd = 01101
+		r1_value = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		r2_value = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1101010101001011
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01100
+		exe_wr_en = 1
+		exe_alu_result = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	WB: 
+		wb_alu_result = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		wb_rd = 01100
+		wb_wr_en = 1
+at  41's rising edge: 
+	IF: 
+		pc = 101000
+		instruction = 1100000110000000001001110
+	ID: 
+		reg1 = 01101
+		reg2 = 01100
+		reg3 = 11011
+		ID_rd = 01101
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1110110110001101
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 1
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01101
+		exe_wr_en = 1
+		exe_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+	WB: 
+		wb_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		wb_rd = 01101
+		wb_wr_en = 1
+at  42's rising edge: 
+	IF: 
+		pc = 101001
+		instruction = 1100000111001010011001111
+	ID: 
+		reg1 = 00010
+		reg2 = 00000
+		reg3 = 00110
+		ID_rd = 01110
+		r1_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r2_value = 00010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010000000000000000000010000000000001010
+		r3_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		immidiate = 0001100000000010
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01101
+		exe_wr_en = 1
+		exe_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+	WB: 
+		wb_alu_result = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		wb_rd = 01101
+		wb_wr_en = 1
+at  43's rising edge: 
+	IF: 
+		pc = 101010
+		instruction = 1101001000001010011010000
+	ID: 
+		reg1 = 00110
+		reg2 = 00101
+		reg3 = 00111
+		ID_rd = 01111
+		r1_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r2_value = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		r3_value = 00010000000010101010000001101111000000010110111000001010000000000000000000010000000000001010101000000000011100000000000001111000
+		immidiate = 0001110010100110
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01110
+		exe_wr_en = 1
+		exe_alu_result = 00000000000010100000000000001011000000000000101000000000000010110000000000001010000000000000101100000000000010100000000000001011
+	WB: 
+		wb_alu_result = 00000000000010100000000000001011000000000000101000000000000010110000000000001010000000000000101100000000000010100000000000001011
+		wb_rd = 01110
+		wb_wr_en = 1
+at  44's rising edge: 
+	IF: 
+		pc = 101011
+		instruction = 1110111001100000111110001
+	ID: 
+		reg1 = 00110
+		reg2 = 00101
+		reg3 = 01000
+		ID_rd = 10000
+		r1_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r2_value = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		r3_value = 00001110110001100010000000010011010101010110111000001010000000000000000000001111101110000011010101111101001101010100010001111000
+		immidiate = 0010000010100110
+		index = 101
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 01111
+		exe_wr_en = 1
+		exe_alu_result = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+	WB: 
+		wb_alu_result = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		wb_rd = 01111
+		wb_wr_en = 1
+at  45's rising edge: 
+	IF: 
+		pc = 101100
+		instruction = 1110101010100000111110001
+	ID: 
+		reg1 = 01111
+		reg2 = 10000
+		reg3 = 11001
+		ID_rd = 10001
+		r1_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = 1110011000001111
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10000
+		exe_wr_en = 1
+		exe_alu_result = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+	WB: 
+		wb_alu_result = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		wb_rd = 10000
+		wb_wr_en = 1
+at  46's rising edge: 
+	IF: 
+		pc = 101101
+		instruction = 1100001100000101000110010
+	ID: 
+		reg1 = 01111
+		reg2 = 10000
+		reg3 = 01010
+		ID_rd = 10001
+		r1_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r2_value = 11101100000000001010000000000000111111011010010000001010000000001111101101111000100111001010000000000000000000001111011010101010
+		r3_value = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		immidiate = 1010101000001111
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10001
+		exe_wr_en = 1
+		exe_alu_result = 00010100000000000000000000000000000001010100111111011000000000001001110001100101010001000000000000000000000010001010101111111010
+	WB: 
+		wb_alu_result = 00010100000000000000000000000000000001010100111111011000000000001001110001100101010001000000000000000000000010001010101111111010
+		wb_rd = 10001
+		wb_wr_en = 1
+at  47's rising edge: 
+	IF: 
+		pc = 101110
+		instruction = 1110101101000101001010011
+	ID: 
+		reg1 = 10001
+		reg2 = 00010
+		reg3 = 01100
+		ID_rd = 10010
+		r1_value = 00010100000000000000000000000000000001010100111111011000000000001001110001100101010001000000000000000000000010001010101111111010
+		r2_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r3_value = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		immidiate = 0011000001010001
+		index = 100
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 1
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10001
+		exe_wr_en = 1
+		exe_alu_result = 00000000000000100000000000000000000000000000100001111111110000000000000000001111111110100000000000000000000000000000000010010000
+	WB: 
+		wb_alu_result = 00000000000000100000000000000000000000000000100001111111110000000000000000001111111110100000000000000000000000000000000010010000
+		wb_rd = 10001
+		wb_wr_en = 1
+at  48's rising edge: 
+	IF: 
+		pc = 101111
+		instruction = 1110101110001110011010100
+	ID: 
+		reg1 = 10010
+		reg2 = 00010
+		reg3 = 01101
+		ID_rd = 10011
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = 10100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011000000000000000010100000000000001011
+		r3_value = 00111110000000010000000000000000000000100110111000010100000000000000000000100000011100000000000000000000000000100000000010000010
+		immidiate = 1011010001010010
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 1
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10010
+		exe_wr_en = 1
+		exe_alu_result = 00000000000000000000000000000001000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000000010
+	WB: 
+		wb_alu_result = 00000000000000000000000000000001000000000000000000000000000010100000000000000000000000000000101000000000000000000000000000000010
+		wb_rd = 10010
+		wb_wr_en = 1
+at  49's rising edge: 
+	IF: 
+		pc = 110000
+		instruction = 1110101111101001001110101
+	ID: 
+		reg1 = 00110
+		reg2 = 00111
+		reg3 = 01110
+		ID_rd = 10100
+		r1_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		r2_value = 00010000000010101010000001101111000000010110111000001010000000000000000000010000000000001010101000000000011100000000000001111000
+		r3_value = 00000000000010100000000000001011000000000000101000000000000010110000000000001010000000000000101100000000000010100000000000001011
+		immidiate = 1011100011100110
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10011
+		exe_wr_en = 1
+		exe_alu_result = 00000000000000000000000000000001000000000000000000000000000010100000000000001010000000000000000000000000010000000000000000000000
+	WB: 
+		wb_alu_result = 00000000000000000000000000000001000000000000000000000000000010100000000000001010000000000000000000000000010000000000000000000000
+		wb_rd = 10011
+		wb_wr_en = 1
+at  50's rising edge: 
+	IF: 
+		pc = 110001
+		instruction = xxxxxxxxxxxxxxxxxxxxxxxxx
+	ID: 
+		reg1 = 10011
+		reg2 = 10100
+		reg3 = 01111
+		ID_rd = 10101
+		r1_value = 00000000000000000000000000000001000000000000000000000000000010100000000000001010000000000000000000000000010000000000000000000000
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = 00010000001110100010000000000000000000001111111010000111111111000000000000001111111111111010000000000000000000010000000000001001
+		immidiate = 1011111010010011
+		index = 110
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 1
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10100
+		exe_wr_en = 1
+		exe_alu_result = 11111111110100001000000001101111000000000111000001111111111111110000000000000001000000010000101000000000011011110000000001101111
+	WB: 
+		wb_alu_result = 11111111110100001000000001101111000000000111000001111111111111110000000000000001000000010000101000000000011011110000000001101111
+		wb_rd = 10100
+		wb_wr_en = 1
+at  51's rising edge: 
+	IF: 
+		pc = 110010
+		instruction = xxxxxxxxxxxxxxxxxxxxxxxxx
+	ID: 
+		reg1 = xxxxx
+		reg2 = xxxxx
+		reg3 = xxxxx
+		ID_rd = xxxxx
+		r1_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r2_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		r3_value = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+		immidiate = xxxxxxxxxxxxxxxx
+		index = xxx
+		ID_wr_en = 1
+	EXE: 
+		mux_1 = 0
+		mux_2 = 0
+		mux_3 = 0
+		mux_4 = 0
+		exe_rd = 10101
+		exe_wr_en = 1
+		exe_alu_result = 11111111110100001000000001101110000000000111000001111111111101011111111111110111000000010000101000000000001011110000000001101111
+	WB: 
+		wb_alu_result = 11111111110100001000000001101110000000000111000001111111111101011111111111110111000000010000101000000000001011110000000001101111
+		wb_rd = 10101
+		wb_wr_en = 1

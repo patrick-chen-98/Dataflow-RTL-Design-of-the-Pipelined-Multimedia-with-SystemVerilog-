@@ -1,0 +1,48 @@
+li 0 10 r0
+li 1 1 r0
+li 2 160 r0
+li 3 16 r0
+li 4 2560 r0
+li 5 256 r0
+li 6 40960 r0
+li 7 4096 r0
+li 0 10 r1
+li 1 1 r1
+li 2 160 r1
+li 3 16 r1
+li 4 2560 r1
+li 5 256 r1
+li 6 40960 r1
+li 7 4096 r1
+li 0 11 r2
+li 1 10 r2
+li 2 176 r2
+li 3 160 r2
+li 4 2816 r2
+li 5 2560 r2
+li 6 45056 r2
+li 7 40960 r2
+mals r2 r1 r0 r3
+mahs r3 r2 r0 r4
+msls r3 r4 r1 r5
+mshs r4 r3 r1 r6
+lmals r2 r1 r0 r7
+lmahs r5 r6 r7 r8
+lmsls r5 r6 r7 r9
+nop
+au r2 r1 r10
+absdb r10 r2 r1
+ahu r1 r3 r11
+ahs r1 r3 r10
+absdb r10 r11 r12
+and r10 r11 r13
+or r12 r13 r13
+bcw r2 r14
+maxws r5 r6 r15
+minws r5 r6 r16
+mlhu r16 r15 r17
+mlhcu r16 r15 r17
+pcntw r17 r18
+rotw r2 r18 r19
+sfhs r7 r6 r20
+sfw r20 r19 r21

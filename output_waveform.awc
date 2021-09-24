@@ -1,0 +1,71 @@
+<config>
+    <version>
+        3.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="04d9f57c0776ae6590604ab707120000">output_waveform.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/tb/clk</signal>
+        <signal>/tb/reset</signal>
+        <signal>/tb/mem</signal>
+        <signal>/tb/wb_alu_result</signal>
+        <signal>/tb/exe_alu_result</signal>
+        <signal>/tb/reg1</signal>
+        <signal>/tb/reg2</signal>
+        <signal>/tb/reg3</signal>
+        <signal>/tb/immidiate</signal>
+        <signal>/tb/mux_1</signal>
+        <signal>/tb/mux_2</signal>
+        <signal>/tb/mux_3</signal>
+        <signal>/tb/mux_4</signal>
+        <signal>/tb/pc</signal>
+        <signal>/tb/instruction</signal>
+        <signal>/tb/r1_value</signal>
+        <signal>/tb/r2_value</signal>
+        <signal>/tb/r3_value</signal>
+        <signal>/tb/wb_rd</signal>
+        <signal>/tb/exe_rd</signal>
+        <signal>/tb/ID_rd</signal>
+        <signal>/tb/index</signal>
+        <signal>/tb/ID_wr_en</signal>
+        <signal>/tb/exe_wr_en</signal>
+        <signal>/tb/wb_wr_en</signal>
+        <signal>/tb/expected_result</signal>
+        <signal>/tb/result_file</signal>
+        <signal>/tb/i</signal>
+        <signal>/tb/output_number</signal>
+        </signallist>
+    </signallists>
+    <timebases>
+        <timebase id="0">
+            <time start_time="0" end_time="537" />
+        </timebase>
+    </timebases>
+    <prefbases>
+        <prefbase id="0" >
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="515" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>
